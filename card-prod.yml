@@ -1,7 +1,7 @@
 card:
   name: card-service-prod
   version: 1.0.0
-  description: Card Service for managing user cards
+  description: Card Service for managing user cards for this production env
   contact:
     name: Kiransing Bhat
     email: bhatkiran74@gmail.com

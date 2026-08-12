@@ -1,7 +1,7 @@
 loan:
   name: loan-service-prod
   version: 1.0.0
-  description: Loan Service for managing user loans
+  description: Loan Service for managing user loans for this production env
   contact:
     name: Kiransing Bhat
     email: bhatkiran74@gmail.com

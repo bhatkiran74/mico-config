@@ -1,0 +1,7 @@
+card:
+  name: card-service-e2e
+  version: 1.0.0
+  description: Card Service for managing user cards
+  contact:
+    name: Kiransing Bhat
+    email: bhatkiran74@gmail.com

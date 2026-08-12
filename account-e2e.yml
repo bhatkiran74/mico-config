@@ -1,0 +1,10 @@
+build:
+  info: 10.10.10.snapshot
+
+account:
+  name: account-service-e2e
+  version: 1.0.0
+  description: Account Service for managing user accounts
+  contact:
+    name: Kiransing Bhat
+    email: bhatkiran74@gmail.com

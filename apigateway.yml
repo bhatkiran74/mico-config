@@ -26,9 +26,9 @@ management:
       exposure:
         include: "*"
 
-  endpoint:
-    gateway:
-      enabled: true
+#  endpoint:
+#    gateway:
+#      enabled: true
 
   info:
     env:

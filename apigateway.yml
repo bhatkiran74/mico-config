@@ -9,3 +9,10 @@ eureka:
 
   instance:
     prefer-ip-address: true
+
+
+info:
+  app:
+    name: "gateway"
+    description: "Mico Bank Gateway Server Application"
+    version: "1.0.0"

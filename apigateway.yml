@@ -1,5 +1,15 @@
 
 
+#spring:
+#  cloud:
+#    gateway:
+#      server:
+#        webmvc:
+#          routes:
+#            - id: account-service
+#              uri: http://localhost:9091
+#              predicates:
+#                - Path=/api/accounts/**
 eureka:
   client:
     register-with-eureka: true
@@ -10,9 +20,22 @@ eureka:
   instance:
     prefer-ip-address: true
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+  endpoint:
+    gateway:
+      enabled: true
+
+  info:
+    env:
+      enabled: true
 
 info:
   app:
-    name: "gateway"
-    description: "Mico Bank Gateway Server Application"
+    name: "API Gateway Server"
+    description: "Micro Bank API Gateway Server"
     version: "1.0.0"
